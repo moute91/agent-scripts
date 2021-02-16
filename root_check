@@ -14,3 +14,4 @@ exit 2
 fi
 ##checking memory
 free -m
+exit 0
