@@ -4,14 +4,14 @@ then
 echo
 echo "you do need first to be root"
 echo
-exit 0
+#exit 0
 fi
 ##check number of processor
 C=`nproc`
 if [ $C -eq 1 ]
 then 
 echo "this server is very small"
-exit 2
+#exit 2
 fi
 ##checking memory
 free -m
