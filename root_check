@@ -2,7 +2,7 @@
 if [ $UID -ne 0 ]
 then 
 echo
-echo "you need to be root"
+echo "you do need first to be root"
 echo
 exit 1
 fi
